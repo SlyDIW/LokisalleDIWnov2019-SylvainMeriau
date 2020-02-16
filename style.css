@@ -1,0 +1,212 @@
+/*------------GENERAL------------*/
+body{
+	padding: 0 2% 0 2%;	
+	font-size: 14px;
+}
+header{
+	padding: 5px;
+	margin: 5px;
+	width: 100%;
+}
+div{
+	padding: 5px;
+	margin: 5px;
+}
+#content{
+	display: flex;
+}
+a{
+	color: #4a1d01;
+}
+a:active, a:focus, a:hover{
+	color: #4a1d01;
+	font-style: underline;
+}
+img{
+	border-radius: 5px;
+}
+/*----------MENU NAV------------ */ 
+nav{
+	background-color: #f7f6f0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	height: 70px;
+}
+nav a{
+	font-weight: bold;
+}
+.qui {
+	min-width: 130px;
+}
+.left, .right{
+	width: 100%;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.left{
+	display: flex;
+	align-items: center;
+}
+.espace-membre{
+	text-align: right;
+	min-width: 130px;
+}
+.espace-membre ul{
+	list-style-type: none;
+	padding: 3px 3px 3px 3px;
+}
+.espace-membre li ul{
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s ease;
+ 	transition: visibility 0s, opacity 0.5s linear;
+}
+.espace-membre li:hover ul{
+	transition: 0.5s ease;
+	visibility: visible;
+	position: relative;
+	opacity: 1;
+}
+#nav_bo{
+	display: flex;
+	width: 100%;
+	text-align: center;
+	align-items: center;
+}
+.nav_bo{
+	width: 100%;
+}
+/* --------ASIDE---------*/
+aside{
+	padding: 5px;
+	margin: 5px;
+	box-sizing: content-box;
+}
+select{
+	width: 100%;
+}
+/* --------AFFICHAGE RESULTAT RECHERCHE---------*/
+#view{
+	padding: 5px;
+	display: flex;
+	margin: 0 auto;
+}
+.vue-produit{
+	border: solid grey 1px;
+	margin: 5px 10px 10px 20px;
+	border-radius: 5px;
+}
+#view a{
+	opacity:0.5;
+	transition: 0.5s ease;
+}
+#view a:hover{
+	opacity:1;
+	transition: 0.5s ease;
+}
+/* --------AFFICHAGE produit selectionné--------*/
+.produit{
+	width: 100%;
+}
+.entete{
+	display: flex;
+	justify-content: space-between;
+}
+.row{
+	display: flex;
+}
+h3{
+	margin-right: 20px;
+}
+.presentation{
+	display: flex;
+	justify-content: space-between;
+}
+.presentation img{
+	margin: 0px 40px 0px 20px;
+}
+.presentation iframe{
+	margin: 0px 20px 0px 40px;
+}
+.details label{
+	font-weight: bold;
+}
+.details{
+	display: flex;
+	justify-content: space-between;
+}
+.autresproduits{
+	display: flex;
+}
+.pied{
+	display: flex;
+	justify-content: space-between;
+}
+.titre{
+	font-weight: bolder;
+}
+/* --------BACK OFFICE Gestion des salles--------*/
+h5{
+	text-align: center;
+	font-weight: bolder;
+	color: #4a1d01;
+	text-decoration: underline;
+}
+form{
+	display: flex;
+}
+.gauche{
+	width: 100%;
+}
+.droite{
+	width: 100%;
+}
+.center{
+	text-align: center;
+	width: 100%;
+}
+.titre{
+	width: 50%;
+}
+.description{
+	width: 80%;
+}
+.capacite{
+	width: 50px;
+}
+.categorie{
+	width: 100px;
+}
+.pays{
+	width: 100px;
+}
+.ville{
+	width: 100px;
+}
+.adresse{
+	width: 80%;
+}
+.cp{
+	width: 100px;
+}
+.statut{
+	width: 100px;
+}
+.civilite{
+	width: 100px;
+}
+label{
+	font-weight: bold;
+}
+/* --------INSCRIPTION--------*/
+[placeholder]{
+	font-size: 12px;
+}
+/* --------FOOTER--------*/
+footer{
+	text-align: center;
+	background-color: #f7f6f0;
+	font-weight: bold;
+	color: #4a1d01;
+}
